@@ -20,18 +20,18 @@
 **规格：** `project-kit/context/tech-stack.md`
 **产出：**
 
-- [ ] `turbo.json` — Turborepo 任务编排
-- [ ] `pnpm-workspace.yaml` — pnpm workspace
-- [ ] `pyproject.toml` — uv Python 依赖
-- [ ] `Makefile` — 统一开发命令（`make dev` / `make build` / `make test` / `make lint`）
-- [ ] `apps/web/` — Next.js 项目初始化
-- [ ] `apps/api/` — FastAPI 项目骨架
-- [ ] `packages/knowledge/` — Python package 骨架
-- [ ] `packages/ai-engine/` — Python package 骨架
-- [ ] `packages/shared/` — Python package 骨架
-- [ ] `.gitignore` — 已有
+- [x] `turbo.json` — Turborepo 任务编排
+- [x] `pnpm-workspace.yaml` — pnpm workspace
+- [x] `pyproject.toml` — uv Python 依赖
+- [x] `Makefile` — 统一开发命令（`make dev` / `make build` / `make test` / `make lint`）
+- [x] `apps/web/` — Next.js 项目初始化
+- [x] `apps/api/` — FastAPI 项目骨架
+- [x] `packages/knowledge/` — Python package 骨架
+- [x] `packages/ai-engine/` — Python package 骨架
+- [x] `packages/shared/` — Python package 骨架
+- [x] `.gitignore` — 已有
 
-**完成标准：** `make dev` 可同时启动 web + api（空项目）
+**完成标准：** `make dev` 可同时启动 web + api（空项目） ✅
 
 ---
 
