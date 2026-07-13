@@ -1,0 +1,22 @@
+[project]
+name = "ai-knowledge-platform"
+version = "0.1.0"
+description = "AI Knowledge Platform - V1"
+requires-python = ">=3.12"
+
+[tool.uv.workspace]
+members = [
+    "packages/knowledge",
+    "packages/ai-engine",
+    "packages/shared",
+]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "W", "UP"]
+
+[tool.pytest.ini_options]
+testpaths = ["packages"]
