@@ -33,7 +33,7 @@
 
 ### 必须遵守
 
-1. **只读 project-kit/specs/current/ 来写代码**，不要直接读 `brain.md`（brain.md 只作参考）
+1. **只读 project-kit/specs/current/ 来写代码**，不要直接读 `project-kit/brain.md`（brain.md 只作参考）
 2. **每次只完成一个 task**，不要跨 task 开发
 3. **完成任务后更新 task 状态**（`project-kit/tasks/v1-task-breakdown.md`）
 4. **遵循 `project-kit/.ai/development-standards.md`** 中的编码规范
@@ -42,7 +42,7 @@
 
 ### 禁止行为
 
-- 直接根据 `brain.md` 生成代码（brain.md 是概念文档，不是开发规格）
+- 直接根据 `project-kit/brain.md` 生成代码（brain.md 是概念文档，不是开发规格）
 - 为 V2/V3 预留接口或抽象
 - 修改 Knowledge Core 来适配 Application（应该是 Application 适配 Knowledge Core）
 - 绕过依赖规则（参考 architecture-decisions.md）

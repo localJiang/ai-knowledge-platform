@@ -21,6 +21,7 @@
 ```
 ai-knowledge-platform/
 ├── project-kit/               # 开发文档（Project Kit）
+│   ├── brain.md               # 产品概念文档（参考，不驱动开发）
 │   ├── .ai/                   # Claude Code 规范（不是业务代码）
 │   ├── context/               # 项目背景文档
 │   ├── specs/current/         # V1 规格文档
@@ -41,7 +42,6 @@ ai-knowledge-platform/
 │   ├── dev/
 │   ├── db/
 │   └── tools/
-├── brain.md                   # 产品概念文档（参考）
 ├── Makefile
 └── .env
 ```
