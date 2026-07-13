@@ -59,12 +59,12 @@
 
 **产出：**
 
-- [ ] Config（环境变量读取）
-- [ ] Logger（统一格式，禁止 print）
-- [ ] Exception（统一异常类）
-- [ ] Common Types
+- [x] Config（环境变量读取）
+- [x] Logger（统一格式，禁止 print）
+- [x] Exception（统一异常类）
+- [x] Common Types
 
-**完成标准：** packages/shared 可被其他包 import
+**完成标准：** packages/shared 可被其他包 import ✅
 
 ---
 
