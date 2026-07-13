@@ -2,9 +2,11 @@
 
 from fastapi import APIRouter
 
+from shared.types import HealthResponse
+
 router = APIRouter(tags=["health"])
 
 
-@router.get("/health")
+@router.get("/health", response_model=HealthResponse)
 async def health():
-    return {"status": "ok"}
+    return HealthResponse()
