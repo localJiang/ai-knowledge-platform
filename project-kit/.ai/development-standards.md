@@ -20,26 +20,30 @@
 
 ```
 ai-knowledge-platform/
-├── apps/                    # 运行入口，不含业务逻辑
-│   ├── web/                 # Next.js 前端
-│   └── api/                 # FastAPI 后端
-├── packages/                # 可复用业务能力
-│   ├── knowledge/           # Knowledge Core
-│   ├── ai-engine/           # AI Engine
-│   └── shared/              # 公共能力
-├── docker/                  # 部署配置
+├── project-kit/               # 开发文档（Project Kit）
+│   ├── .ai/                   # Claude Code 规范（不是业务代码）
+│   ├── context/               # 项目背景文档
+│   ├── specs/current/         # V1 规格文档
+│   └── tasks/                 # 任务拆分
+├── apps/                      # 运行入口，不含业务逻辑
+│   ├── web/                   # Next.js 前端
+│   └── api/                   # FastAPI 后端
+├── packages/                  # 可复用业务能力
+│   ├── knowledge/             # Knowledge Core
+│   ├── ai-engine/             # AI Engine
+│   └── shared/                # 公共能力
+├── docker/                    # 部署配置
 │   ├── compose.yaml
 │   ├── postgres/
 │   ├── minio/
 │   └── nginx/
-├── scripts/                 # 工具脚本
+├── scripts/                   # 工具脚本
 │   ├── dev/
 │   ├── db/
 │   └── tools/
-├── .ai/                     # Claude Code 规范（不是业务代码）
-├── context/                 # 项目背景文档
-├── specs/current/           # V1 规格文档
-└── tasks/                   # 任务拆分
+├── brain.md                   # 产品概念文档（参考）
+├── Makefile
+└── .env
 ```
 
 ---

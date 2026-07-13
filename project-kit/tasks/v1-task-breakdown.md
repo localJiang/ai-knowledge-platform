@@ -17,7 +17,7 @@
 ### Task 1.1: Monorepo 骨架
 
 **依赖：** 无
-**规格：** `context/tech-stack.md`
+**规格：** `project-kit/context/tech-stack.md`
 **产出：**
 
 - [ ] `turbo.json` — Turborepo 任务编排
@@ -40,7 +40,7 @@
 ### Task 2.1: FastAPI 应用骨架
 
 **依赖：** Task 1.1
-**规格：** `specs/current/architecture.md`
+**规格：** `project-kit/specs/current/architecture.md`
 
 **产出：**
 
@@ -55,7 +55,7 @@
 ### Task 2.2: Shared Package
 
 **依赖：** Task 1.1
-**规格：** `specs/current/architecture.md`
+**规格：** `project-kit/specs/current/architecture.md`
 
 **产出：**
 
@@ -73,7 +73,7 @@
 ### Task 3.1: PostgreSQL + PgVector 环境
 
 **依赖：** Task 1.1
-**规格：** `context/tech-stack.md`
+**规格：** `project-kit/context/tech-stack.md`
 
 **产出：**
 
@@ -86,7 +86,7 @@
 ### Task 3.2: ORM + Migration
 
 **依赖：** Task 2.1, 3.1
-**规格：** `specs/current/data-model.md`
+**规格：** `project-kit/specs/current/data-model.md`
 
 **产出：**
 
@@ -107,7 +107,7 @@
 ### Task 4.1: File Storage
 
 **依赖：** Task 2.1
-**规格：** `specs/current/knowledge-core.md`
+**规格：** `project-kit/specs/current/knowledge-core.md`
 
 **产出：**
 
@@ -121,7 +121,7 @@
 ### Task 4.2: Parser + Normalizer
 
 **依赖：** Task 2.1
-**规格：** `specs/current/knowledge-core.md`
+**规格：** `project-kit/specs/current/knowledge-core.md`
 
 **产出：**
 
@@ -134,7 +134,7 @@
 ### Task 4.3: Chunker
 
 **依赖：** Task 4.2
-**规格：** `specs/current/knowledge-core.md`
+**规格：** `project-kit/specs/current/knowledge-core.md`
 
 **产出：**
 
@@ -147,7 +147,7 @@
 ### Task 4.4: Embedder + VectorStore
 
 **依赖：** Task 3.2, 4.3
-**规格：** `specs/current/knowledge-core.md`
+**规格：** `project-kit/specs/current/knowledge-core.md`
 
 **产出：**
 
@@ -160,7 +160,7 @@
 ### Task 4.5: Indexer
 
 **依赖：** Task 4.1, 4.2, 4.3, 4.4
-**规格：** `specs/current/knowledge-core.md`
+**规格：** `project-kit/specs/current/knowledge-core.md`
 
 **产出：**
 
@@ -173,7 +173,7 @@
 ### Task 4.6: Retriever + Knowledge API
 
 **依赖：** Task 4.4, 4.5
-**规格：** `specs/current/knowledge-core.md`
+**规格：** `project-kit/specs/current/knowledge-core.md`
 
 **产出：**
 
@@ -190,7 +190,7 @@
 ### Task 5.1: LLM Gateway
 
 **依赖：** Task 2.1
-**规格：** `specs/current/ai-engine.md`
+**规格：** `project-kit/specs/current/ai-engine.md`
 
 **产出：**
 
@@ -204,7 +204,7 @@
 ### Task 5.2: Prompt Builder + Context Builder
 
 **依赖：** Task 4.6, 5.1
-**规格：** `specs/current/ai-engine.md`
+**规格：** `project-kit/specs/current/ai-engine.md`
 
 **产出：**
 
@@ -218,7 +218,7 @@
 ### Task 5.3: AI Engine API
 
 **依赖：** Task 5.2
-**规格：** `specs/current/ai-engine.md`
+**规格：** `project-kit/specs/current/ai-engine.md`
 
 **产出：**
 
@@ -237,7 +237,7 @@
 ### Task 6.1: Knowledge Routes
 
 **依赖：** Task 4.6
-**规格：** `specs/current/api-spec.md`
+**规格：** `project-kit/specs/current/api-spec.md`
 
 **产出：**
 
@@ -252,7 +252,7 @@
 ### Task 6.2: Chat Routes
 
 **依赖：** Task 5.3
-**规格：** `specs/current/api-spec.md`
+**规格：** `project-kit/specs/current/api-spec.md`
 
 **产出：**
 
@@ -265,7 +265,7 @@
 ### Task 6.3: Interview Routes
 
 **依赖：** Task 5.3
-**规格：** `specs/current/api-spec.md`
+**规格：** `project-kit/specs/current/api-spec.md`
 
 **产出：**
 
@@ -282,7 +282,7 @@
 ### Task 7.1: Upload Page
 
 **依赖：** Task 6.1
-**规格：** `specs/current/frontend.md`
+**规格：** `project-kit/specs/current/frontend.md`
 
 **产出：**
 
@@ -297,7 +297,7 @@
 ### Task 7.2: Interview Page
 
 **依赖：** Task 6.2, 6.3
-**规格：** `specs/current/frontend.md`
+**规格：** `project-kit/specs/current/frontend.md`
 
 **产出：**
 
@@ -316,7 +316,7 @@
 ### Task 8.1: 完整 Docker Compose
 
 **依赖：** Task 7.2
-**规格：** `context/tech-stack.md`
+**规格：** `project-kit/context/tech-stack.md`
 
 **产出：**
 

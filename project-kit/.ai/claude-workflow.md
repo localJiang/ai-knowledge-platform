@@ -10,9 +10,9 @@
 
 阅读以下文件（按顺序）：
 
-1. `context/project-overview.md` — 项目定位、核心原则、V1 边界
-2. `context/tech-stack.md` — 技术选型
-3. `context/architecture-decisions.md` — 关键架构决策
+1. `project-kit/context/project-overview.md` — 项目定位、核心原则、V1 边界
+2. `project-kit/context/tech-stack.md` — 技术选型
+3. `project-kit/context/architecture-decisions.md` — 关键架构决策
 
 时间：约 5 分钟。
 
@@ -20,8 +20,8 @@
 
 阅读：
 
-1. `tasks/v1-task-breakdown.md` — 查看当前任务状态
-2. 对应的 `specs/current/*.md` — 当前任务的规格文档
+1. `project-kit/tasks/v1-task-breakdown.md` — 查看当前任务状态
+2. 对应的 `project-kit/specs/current/*.md` — 当前任务的规格文档
 
 ### 第三步：开始开发
 
@@ -33,10 +33,10 @@
 
 ### 必须遵守
 
-1. **只读 specs/current/ 来写代码**，不要直接读 `brain.md`（brain.md 只作参考）
+1. **只读 project-kit/specs/current/ 来写代码**，不要直接读 `brain.md`（brain.md 只作参考）
 2. **每次只完成一个 task**，不要跨 task 开发
-3. **完成任务后更新 task 状态**（`tasks/v1-task-breakdown.md`）
-4. **遵循 `.ai/development-standards.md`** 中的编码规范
+3. **完成任务后更新 task 状态**（`project-kit/tasks/v1-task-breakdown.md`）
+4. **遵循 `project-kit/.ai/development-standards.md`** 中的编码规范
 5. **不引入 V1 禁止事项**（参考 development-standards.md）
 6. **所有业务逻辑放入 packages/**，apps 仅作运行入口
 
@@ -71,4 +71,4 @@ Knowledge Core 完成之前，不开发 Interview。
 - [ ] 代码通过 lint
 - [ ] 代码通过 type check
 - [ ] 相关测试通过
-- [ ] 更新 `tasks/v1-task-breakdown.md` 状态
+- [ ] 更新 `project-kit/tasks/v1-task-breakdown.md` 状态
